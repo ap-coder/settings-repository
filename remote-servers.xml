@@ -1,0 +1,22 @@
+<application>
+  <component name="RemoteServers">
+    <remote-server name="Docker" type="docker">
+      <configuration>
+        <option name="apiUrl" value="npipe:////./pipe/docker_engine" />
+        <option name="certificatesPath" />
+        <option name="pathMappings">
+          <list>
+            <DockerPathMappingImpl>
+              <option name="localPath" value="\\wsl$\Ubuntu-20.04\home\code\proxy_manager" />
+              <option name="virtualMachinePath" value="proxy_manager" />
+            </DockerPathMappingImpl>
+            <DockerPathMappingImpl>
+              <option name="localPath" value="\\wsl$\Ubuntu-20.04\home\code\myapp\my-project" />
+              <option name="virtualMachinePath" value="myapp" />
+            </DockerPathMappingImpl>
+          </list>
+        </option>
+      </configuration>
+    </remote-server>
+  </component>
+</application>
