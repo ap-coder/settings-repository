@@ -1,0 +1,5 @@
+<templateSet group="OpenAPI PHP DOCBLOCKS">
+  <template name="GET" value="        /**&#10;         * $NAME$&#10;         *&#10;         * Store new event in DB&#10;         * &#10;         * @post('/api/v1/content-pages')&#10;         * @name('api.content-pages.store')&#10;         * @middlewares(auth:sanctum)&#10;         */" description="GET  METHOD" toReformat="false" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+  </template>
+</templateSet>
